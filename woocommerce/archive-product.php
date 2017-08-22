@@ -57,9 +57,6 @@ get_header( 'shop' ); ?>
 			
 			<?php endwhile; wp_reset_postdata(); ?>
 		</div>
-		<div class="store-categories">
-			 <?php wp_nav_menu( array('menu' => 'Cat Tienda' )); ?>
-		</div>
 	</div>
 		<?php
 			/**
