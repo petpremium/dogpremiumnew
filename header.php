@@ -25,7 +25,7 @@
 	<header id="masthead">
 		<div class="container">
 			<div class="row">
-				<div class="logo">
+				<div class="logo-img">
 					<a href="<?php bloginfo('url'); ?>">
 						<img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" class="img-responsive aligncenter logo" alt="<?php the_title(); ?>">
 					</a>

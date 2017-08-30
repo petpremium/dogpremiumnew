@@ -133,8 +133,8 @@ Template Name: Busqueda
 
 	<div class="img-destacada-busq">
 		<img class="img-full" src="<?php bloginfo('template_url')?>/assets/img/busqueda/busqueda-cover.jpg" alt="">
-		<div class="titulos t1 text-left container-fluid"><h1><span class="modifica-color">¿ENCONTRASTE</span><br>UNA MASCOTA<br>PERDIDA?</h1> <br><a class="ea report" href="">ENTRA AQUÍ</a></div>
-		<div class="titulos t2 text-right container-fluid"><h1><span class="modifica-color">¿BUSCAS</span> A TU <br>MASCOTA<br>EXTRAVIADA?</h1><br><a class="ea find" href="">ENTRA AQUÍ</a></div>
+		<div class="titulos t1 text-left container-fluid"><h1><span class="modifica-color">¿ENCONTRASTE</span><br>UNA MASCOTA<br>PERDIDA?</h1><a class="ea report" href="">ENTRA AQUÍ</a></div>
+		<div class="titulos t2 text-right container-fluid"><h1><span class="modifica-color">¿BUSCAS</span> A TU <br>MASCOTA<br>EXTRAVIADA?</h1><a class="ea find" href="">ENTRA AQUÍ</a></div>
 	</div>
 	<div class="separacion">
 		<p class="titulo-seccion text-center">ÚLTIMAS MASCOTAS REPORTADAS</p>

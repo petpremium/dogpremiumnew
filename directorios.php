@@ -19,10 +19,7 @@ Template Name: Directorios
 				<div class="leyenda">
 					<span class="cdmx">Nuestros Directorios Pertenecen a la Ciudad de Mexico Unicamente</span>
 				</div>
-					<div class="loader-ajax">
-						<img src="<?php bloginfo('template_url'); ?>/assets/img/LXLP-loader.gif" class="aligncenter" alt="">
-					</div>
-				<div class="row" id="ajax-directorio">
+				<div class="row">
 					<!-- Elemento del directorio -->
 					<?php
 						$args = array(

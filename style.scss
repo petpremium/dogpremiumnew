@@ -1,9 +1,9 @@
 /*
-Theme Name:  Locos x los perros
+Theme Name:  Dog Premium
 Description: Comunidad de Amantes de Perros
 Version: 1.0
-Author: Enrique Contreras
-Author URI: http://kikemonk.com/
+Author: Pugsarrollos
+Author URI: http://pugsarrolos.com/
 */
 @import 'assets/css/ajustes';
 
@@ -1453,9 +1453,6 @@ input, button, a, select{
 }
 
 /* ====== GLOBALES ====== */
-#ajax-directorio{
-	margin: 30px 0px;
-}
 .dir-ind{
 	padding: 30px;
 	margin: 10px 5px;
@@ -1886,23 +1883,52 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 
 /*======= MEDIA QUERIES =======*/
 
-/* == iPad Horizontal == */
-@media (max-width: 1024px){
-
-}
-
 /* == iPad Vertical == */
 @media (max-width:768px){
 	
 	// Ajustes Header
 	#masthead{
-		.logo{
-			width: 220px;
-			float: left;
-			margin: 3px;
+		z-index: +3;
+		position: fixed;
+		#menu-principal{
+			display: block !important;
+			text-align: center !important;
+			li{
+				text-align: center !important;
+				padding: 40px 25px !important;
+				a{
+					width: 100% !important;
+					font-size: 2.4rem;
+				}
+			}
 		}
-		
+		.logo-img{
+			width: 100%;
+			.logo{
+				width: 20%;
+				float: none;
+				display: block;
+				margin: auto;
+			}
+		}
+		.registrer-trigger{
+		    font-size: 40px !important;
+		    position: absolute !important;
+		    margin: 0 !important;
+		    top: 35% !important;
+		    right: 10% !important;
+		}
+		.mob-trigger{
+			font-size: 40px;
+			left: 10%;
+			top: 35%;
+			right: 100%;
+		}
+		.form-box{
+			width: 40% !important;
+		}
 		#mastmenu{
+			margin: 0;
 			ul{
 				padding: 90px 0;
 				position: fixed;
@@ -1924,7 +1950,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 	}	
 	
 	// Ajustes Home
-	
+	.entry-title{
+		font-size: 3rem;
+	}
 	#home{
 		.texto-imagen{
 			h2{
@@ -1933,6 +1961,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 			
 			p{
 				font-size: 25px;
+			}
+		}
+		.item{
+			.texto-imagen{
+				display: none;
 			}
 		}
 	}
@@ -2111,10 +2144,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 			}
 		}
 	}
-	#mastfooter{
-		position: fixed !important;
-		bottom: 0 !important;
-	}
 }
 
 /* == iPhone 6s Plus == */
@@ -2125,6 +2154,25 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 		.logo{
 			width: 120px;
 			margin-left: 30px;
+		}
+		#mastmenu{
+			.registrer-trigger{
+				font-size: 30px !important;
+			}
+			.mob-only{
+				font-size: 30px !important;
+			}
+		}
+	#menu-principal{
+		li{
+			padding: 20px 25px !important;
+			a{
+				font-size: 1.4rem !important;
+			}
+		}
+	}
+		.form-box{
+			width: 60% !important;
 		}
 	}	
 	
