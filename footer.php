@@ -7,7 +7,7 @@
 					</div>
 					
 					<div class="foot-right pull-right">
-						<a href="#">Aviso de Privacidad</a> | <a href="">Terminos y Condiciones</a>
+						<a href="<?php bloginfo(url); ?>/aviso">Aviso de Privacidad</a> | <a href="<?php bloginfo(url); ?>/terminos">Terminos y Condiciones</a> | <a href="<?php bloginfo(url); ?>/politica-cambios">Politica de Cambios</a>
 					</div>
 				</div>
 			</div>
